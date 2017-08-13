@@ -1,13 +1,11 @@
 .About{
+ 
   text-align: center;
  
 }
 
-
-
 .text{
   padding:50px;
-  margin-left:200px;
-  margin-right:200px;
-  margin-bottom:100px;
+  margin:50px;
+  text-align: justify;
 }

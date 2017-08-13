@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .navbar-container{
     position: fixed;
     top: 0;
@@ -8,22 +12,6 @@
     margin: 0;
     padding: 10px;
     
-}
-
-.page{
-  background-color: inherit;
-  color: black;
-  width: 420px;
-  height: 220px;
-  margin: 0;
-  border: 1px solid black;
-  
-  text-align: center;
-  list-style: none;
-  display: inline;
-  margin-right: 0;
-  float: left;
-  align: center; 
 }
 
 ul.navbar{
@@ -52,17 +40,32 @@ ul.navbar li a:hover{
 }
 
 .content-container{
-  margin-top: 150px;
-  margin-left: 100px;
-  align: center;
+  text-align: center;
+  width: 844px;
+  margin: 150px auto;
 }
 
-.page a{
-/*   position: absolute;
-  top: 0; left: 0;
-  height: 100%; width: 100%; */
+.title{
+  text-align: center;
+  width: 100%
 }
-/*
-.books{
-  background: blue;
-}/*
+
+.page{
+  background-color: inherit;
+  color: black;
+  width: 420px;
+  height: 220px;
+  margin: 0;
+  border: 1px solid black;
+  
+  text-align: center;
+  list-style: none;
+  display: inline;
+  margin-right: 0;
+  float: left;
+  align: center; 
+}
+
+.clear{
+  clear: both;
+}
