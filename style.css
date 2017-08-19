@@ -11,12 +11,11 @@ body{
     background: grey;
     margin: 0;
     padding: 10px;
-    
+
 }
 
 ul.navbar{
-  
-  padding: 200ox;
+  padding: 10px;
   background: none;
   text-align: center;
   font-size: 20px;
@@ -25,7 +24,7 @@ ul.navbar{
 ul.navbar li{
   list-style: none;
   display: inline;
-  margin: 40px;
+  margin: 20px;
 }
 
 ul.navbar li a{
@@ -42,29 +41,24 @@ ul.navbar li a:hover{
 .content-container{
   text-align: center;
   width: 844px;
-  margin: 150px auto;
+  margin: 200px auto;
 }
 
-.title{
-  text-align: center;
-  width: 100%
-}
-
-.page{
-  background-color: inherit;
-  color: black;
-  width: 420px;
-  height: 220px;
-  margin: 0;
-  border: 1px solid black;
-  
-  text-align: center;
+.card{
+  width: 100%;
+  height: auto;
   list-style: none;
   display: inline;
   margin-right: 0;
   float: left;
-  align: center; 
+  align: center;
 }
+
+.name{
+  text-align: center;
+  width: 100%
+}
+
 
 .clear{
   clear: both;
