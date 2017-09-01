@@ -45,18 +45,28 @@ ul.navbar li a:hover{
 }
 
 .card{
-  width: 100%;
-  height: auto;
+  width: 400px;
+  height: 300px;
+  
   list-style: none;
   display: inline;
   margin-right: 0;
   float: left;
   align: center;
+
+}
+
+.card-img{
+  width: 400px;
+  height: 300px;
+}
+.card-img-overlay{
+
 }
 
 .name{
   text-align: center;
-  width: 100%
+  width: 100%;
 }
 
 
