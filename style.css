@@ -22,6 +22,12 @@ body{
   text-align: center;
   width: 60%;
   margin: 5% auto;
+  text-align: justify;
+}
+
+.card-deck{
+  margin: 5%;
+  padding: 5%;
 }
 
 .card{
