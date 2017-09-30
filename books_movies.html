@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -7,29 +7,67 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:700" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Books/Movies</title>
   </head>
 
   <body>
 
-    <div class="navbar-container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">MPOWER</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <h1 class="name">MPOWER</h1>
-
-      <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="content-container">
 
       <h2>
         Books/Movies
       </h2>
+
+      <div class="card-deck">
+        <div class="bm-card">
+          <img class="card-img-top" src="https://c1.staticflickr.com/1/576/23167435831_892cb2d08c.jpg" alt="The Hunger Games">
+          <div class="card-body">
+            <h4 class="card-title">The Hunger Games by Suzanne Collins</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Books, Movies, Trilogy</small></p>
+          </div>
+        </div>
+        <div class="bm-card">
+          <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/34/1931_Jane_Eyre.jpg" alt="Jane Eyre">
+          <div class="card-body">
+            <h4 class="card-title">Jane Eyre by Charlotte Brontë</h4>
+            <p class="card-text">"Jane Eyre is a complex, self-aware woman in the Victorian age whose work as a governess eventually leads to love. Independent, strong, and feminist, Jane Eyre is an unforgettable character in a classic novel exploring social classes, love, sexuality, and morality." - Buzzfeed</p>
+            <p class="card-text"><small class="text-muted">Book</small></p>
+          </div>
+        </div>
+        <div class="bm-card">
+          <img class="card-img-top" src="https://c1.staticflickr.com/4/3136/2683374701_1ee23d0ba9.jpg" alt="The Harry Potter series">
+          <div class="card-body">
+            <h4 class="card-title">The Harry Potter series by J.K. Rowling</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Books, Movies</small></p>
+          </div>
+        </div>
+      </div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
