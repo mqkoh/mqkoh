@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  width: 100%;  
+  width: 100%;
 }
 
 .navbar{
@@ -21,7 +21,7 @@ body{
 .content-container{
   text-align: center;
   width: 60%;
-  margin: 5% auto;
+  margin: 5% 20%;
   text-align: justify;
 }
 
@@ -29,7 +29,13 @@ body{
   padding: 1%;
 }
 
+.img-thumbnail{
+  float: left;
+  margin: 2%;
+}
+
 .card{
+
   width: 50%;
   height: 350px;  
   list-style: none;
