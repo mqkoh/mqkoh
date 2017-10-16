@@ -2,7 +2,6 @@ body{
   margin: 0;
   width: 100%;
   background-color: #bcc1ba;
-  background-size: contain;
 }
 
 .navbar{
@@ -35,6 +34,11 @@ body{
 }
 
 .img-thumbnail{
+  float: left;
+  margin: 2%;
+}
+
+.series{
   float: left;
   margin: 2%;
 }
@@ -82,4 +86,8 @@ body{
   padding: 3%;
   margin: 3%;
   text-align: justify;
+}
+
+ul{
+  list-style: square;
 }
