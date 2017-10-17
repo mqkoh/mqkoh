@@ -77,7 +77,15 @@ body{
   clear: both;
 }
 
-.About{
+.About {
+  text-align: center;
+}
+
+.Contact {
+  text-align: center;
+}
+
+.Support {
   text-align: center;
 }
 
@@ -149,7 +157,7 @@ a:hover{
     display: none;
     position: absolute;
     background-color: #dad4ef;
-    min-width: 100%;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -163,7 +171,7 @@ a:hover{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #6c5b7b}
+.dropdown-content a:hover {background-color: #ccccff}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
