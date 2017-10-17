@@ -130,6 +130,8 @@ hr{
 .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    color: #ffffff;
 }
 
 /* Dropdown Content (Hidden by Default) */
