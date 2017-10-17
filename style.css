@@ -19,6 +19,10 @@ body{
   color: #ffffff;
 }
 
+.nav-item a:hover{
+  color: #f8b195;
+}
+
 .content-container{
   text-align: center;
   width: 60%;
@@ -27,6 +31,7 @@ body{
   text-align: justify;
   position: relative;
   top: 50px;
+  margin-bottom: 20%;
 }
 
 .card-deck{
@@ -98,9 +103,9 @@ hr{
   clear: both;
 }
 
-.footer{
+#footer{
   background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
-  position: relative;
+  position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
@@ -114,6 +119,11 @@ hr{
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   color: #ffffff;
   margin: 10px;
+}
+
+a:hover{
+  color: #f8b195;
+  text-decoration: none;
 }
 
 /* Dropdown Button */
@@ -153,7 +163,7 @@ hr{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: blue}
+.dropdown-content a:hover {background-color: #6c5b7b}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
