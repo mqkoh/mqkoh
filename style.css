@@ -110,7 +110,7 @@ hr{
   clear: both;
 }
 
-.navbar fixed-bottom navbar-light bg-light{
+.footer{
   background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
   position: absolute;
   right: 0;
@@ -119,6 +119,7 @@ hr{
   text-align: center;
   padding: 1rem;
   margin-top: 10%;
+  height: 120px;
 }
 
 .footer-link{
@@ -187,7 +188,6 @@ a:hover{
   margin-bottom: -50px;
 }
 
-.footer,
 .push {
   height: 120px;
 }
