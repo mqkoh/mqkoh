@@ -110,7 +110,7 @@ hr{
   clear: both;
 }
 
-#footer{
+.navbar fixed-bottom navbar-light bg-light{
   background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
   position: absolute;
   right: 0;
