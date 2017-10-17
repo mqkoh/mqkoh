@@ -1,6 +1,6 @@
-body{
+html, body{
   margin: 0;
-  width: 100%;
+  height: 100%;
   background-color: #dad4ef;
 }
 
@@ -180,4 +180,14 @@ a:hover{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: transparent;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 120px;
 }
