@@ -1,12 +1,13 @@
 body{
   margin: 0;
   width: 100%;
+  background-color: #bcc1ba;
 }
 
 .navbar{
     width: 100%;
     height: 10%;
-    background: linear-gradient(to bottom right, #6c5b7b, #f8b195);;
+    background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
     z-index: 999;
 }
 .navbar-brand{
@@ -21,9 +22,11 @@ body{
 .content-container{
   text-align: center;
   width: 60%;
-  height:80%;
-  margin: 5% 20%;
+  height: 80%;
+  margin: auto;
   text-align: justify;
+  position: relative;
+  top: 50px;
 }
 
 .card-deck{
@@ -35,22 +38,34 @@ body{
   margin: 2%;
 }
 
+.series{
+  float: left;
+  margin: 2%;
+}
+
 .card{
 
   width: 50%;
-  height: 50%;  
+  height: 50%;
   list-style: none;
   display: inline;
   margin-right: 0;
   float: left;
   align: center;
+  border: 1px solid #888888;
+  box-shadow: 10px 10px 5px #888888;
 
 }
 
 .card-img{
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+}
+
+.card-img-overlay{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow:hidden;
 }
 
 .name{
@@ -61,4 +76,18 @@ body{
 
 .clear{
   clear: both;
+}
+
+.About{
+  text-align: center;
+}
+
+.text{
+  padding: 3%;
+  margin: 3%;
+  text-align: justify;
+}
+
+ul{
+  list-style: square;
 }
