@@ -97,3 +97,21 @@ ul{
 hr{
   clear: both;
 }
+
+.footer{
+  background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 10%;
+}
+
+.footer-link{
+  display: inline;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: #ffffff;
+  margin: 10px;
+}
