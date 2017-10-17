@@ -112,7 +112,7 @@ hr{
 
 .footer{
   background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
-  position: absolute;
+  position: relative;
   right: 0;
   left: 0;
   bottom: 0;
