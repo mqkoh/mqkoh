@@ -1,7 +1,7 @@
 body{
   margin: 0;
   width: 100%;
-  background-color: #bcc1ba;
+  background-color: #dad4ef;
 }
 
 .navbar{
@@ -35,16 +35,10 @@ body{
 
 .img-thumbnail{
   float: left;
-  margin: 2%;
-}
-
-.series{
-  float: left;
-  margin: 2%;
+  margin: 4%;
 }
 
 .card{
-
   width: 50%;
   height: 50%;
   list-style: none;
@@ -90,4 +84,16 @@ body{
 
 ul{
   list-style: square;
+}
+
+.card-text{
+  clear: both;
+}
+
+#je{
+  clear: none;
+}
+
+hr{
+  clear: both;
 }
