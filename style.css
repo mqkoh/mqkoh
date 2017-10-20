@@ -1,5 +1,6 @@
 html, body{
   margin: 0;
+  padding: 0;
   height: 100%;
   background-color: #dad4ef;
 }
@@ -117,9 +118,9 @@ hr{
   left: 0;
   bottom: 0;
   text-align: center;
-  padding: 1rem;
-  margin-top: 10%;
-  height: 120px;
+  padding: 1%;
+  height: 100px;
+  margin-bottom: 0;
 }
 
 .footer-link{
@@ -185,9 +186,9 @@ a:hover{
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: -50px;
+  margin-bottom: -100px;
 }
 
 .push {
-  height: 120px;
+  height: 100px;
 }
