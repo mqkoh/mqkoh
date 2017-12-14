@@ -27,7 +27,6 @@ html, body{
 .content-container{
   text-align: center;
   width: 60%;
-  height: 80%;
   margin: auto;
   text-align: justify;
   position: relative;
@@ -118,9 +117,9 @@ hr{
   left: 0;
   bottom: 0;
   text-align: center;
-  padding: 1%;
-  height: 100px;
-  margin-top: 10%;
+  padding: 10px;
+  height: 80px;
+  margin-top: 10px;
 }
 
 .footer-link{
@@ -185,10 +184,9 @@ a:hover{
 }
 
 .wrapper {
-  min-height: 100%;
-  margin-bottom: -100px;
+  min-height: calc(100vh - 80px);
 }
 
 .push {
-  height: 100px;
+  height: 80px;
 }
