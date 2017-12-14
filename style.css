@@ -11,6 +11,11 @@ html, body{
     background: linear-gradient(to bottom right, #6c5b7b, #f8b195);
     z-index: 999;
 }
+
+.logo{
+  margin: 5px;
+}
+
 .navbar-brand{
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   color: #ffffff;
